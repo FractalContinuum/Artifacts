@@ -1,0 +1,12 @@
+# appendix/prototype/requirements.txt
+
+```text
+pydantic>=2.0.0
+openpyxl>=3.1.0
+python-dotenv>=1.0.0
+openai>=1.0.0
+```
+
+`openai` and `python-dotenv` are only required if `prototype_llm_agent.py` is used.
+
+`prototype_schema.py` and `prototype_excel_exporter.py` can be used without calling any LLM API.
